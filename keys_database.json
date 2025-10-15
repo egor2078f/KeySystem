@@ -1,0 +1,27 @@
+{
+  "keys": {
+    "abcdefghijklmnopqrstuvwxyz123456": {
+      "userId": "user_abc123",
+      "created": 1729000000000,
+      "expiry": 1729064800000,
+      "status": "active",
+      "createdDate": "2024-10-15T10:00:00.000Z"
+    },
+    "xyz789mnopqrstuvwxyz123456abcdef": {
+      "userId": "user_xyz789",
+      "created": 1728900000000,
+      "expiry": 1728964800000,
+      "status": "expired",
+      "createdDate": "2024-10-14T06:00:00.000Z"
+    }
+  },
+  "lastGeneration": {
+    "user_abc123": 1729000000000,
+    "user_xyz789": 1728900000000
+  },
+  "stats": {
+    "totalGenerated": 2,
+    "activeKeys": 1,
+    "expiredKeys": 1
+  }
+}
